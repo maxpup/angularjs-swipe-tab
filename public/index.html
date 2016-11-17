@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <script src="./js\angular.min.js" charset="utf-8"></script>
+    <script src="./js/angular-touch.min.js" charset="utf-8"></script>
+    <script src="./js\app.js" charset="utf-8"></script>
+    <script src="./js\maxpupSideTabs.js" charset="utf-8"></script>
+    <!-- <script src="./js/swiper-3.4.0.min.js" charset="utf-8"></script> -->
+    <link rel="stylesheet" href="./css\maxpupSideTabs.css">
+    <!-- <link rel="stylesheet" href="./css\swiper-3.4.0.min.css"> -->
+    <title>maxpup-side-tabs</title>
+  </head>
+
+
+  <body ng-controller="myController">
+
+    <maxpup-side-tabs>
+      <maxpup-side-pane title="pane1" url="../templates/\pane1.html" background="#0099CC" >
+      </maxpup-side-pane>
+      <maxpup-side-pane title="pane2" url="../templates/\pane2.html" background="#9999FF">
+      </maxpup-side-pane>
+    </maxpup-side-tabs>
+
+  </body>
+</html>
